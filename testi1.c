@@ -1,11 +1,10 @@
 #include <stdio.h>
 int main(){
-  int array[]=(1,2,3,4,5);
+  int a[10];
 
-for (int 1=8; i<4;i++{
-  printf("Elementet ne varg jane: %d", array[i]);
+  for(int i = 1; i < 10; i++){
+    printf("Jep numrin %d: ", i+1);
+    scanf("%d", &a[i]);
+  } 
+  return 0;
 }
-  
-return 0;
-}
-  
